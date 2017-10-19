@@ -123,10 +123,8 @@ class BraintreeHelper implements BraintreeHelperInterface {
 			$this->setAndExecuteOperation($paymentTransaction);
 		}
 		catch (\Exception $e){
-			$messageException = $e->getMessage();
 			$paymentTransaction->setAction ( $this->paymentOperation )->setActive ( false )->setSuccessful ( false );
 			$paymentTransaction->getSourcePaymentTransaction()->setActive ( false )->setSuccessful ( false );
-
 		}
 		
 
