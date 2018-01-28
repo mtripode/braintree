@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "fef8341c6ad4b3ae4b250fa61195afdc",
+    "content-hash": "8fd9d918ec1eab60250d3cd2074e1275",
     "packages": [
         {
             "name": "braintree/braintree_php",
-            "version": "3.7.0",
+            "version": "3.25.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/braintree/braintree_php.git",
-                "reference": "36c2b9de6793a28e25f5f9e265f60aaffef2cfe2"
+                "reference": "8c8785b8876d5b2f4b4f78c5768ad245a7c43feb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/braintree/braintree_php/zipball/36c2b9de6793a28e25f5f9e265f60aaffef2cfe2",
-                "reference": "36c2b9de6793a28e25f5f9e265f60aaffef2cfe2",
+                "url": "https://api.github.com/repos/braintree/braintree_php/zipball/8c8785b8876d5b2f4b4f78c5768ad245a7c43feb",
+                "reference": "8c8785b8876d5b2f4b4f78c5768ad245a7c43feb",
                 "shasum": ""
             },
             "require": {
@@ -51,7 +51,7 @@
                 }
             ],
             "description": "Braintree PHP Client Library",
-            "time": "2015-11-19T19:14:47+00:00"
+            "time": "2017-08-25T19:38:09+00:00"
         }
     ],
     "packages-dev": [],
